@@ -20,8 +20,7 @@
 
 .bmp {
   .ivu-layout-header {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 50px;
     height:64px;
   }
 }

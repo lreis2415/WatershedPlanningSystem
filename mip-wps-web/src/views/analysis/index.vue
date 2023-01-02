@@ -1574,7 +1574,7 @@ export default {
 
       const spUnitGeoJsonSource = new VectorSource({
         format: new GeoJSON(),
-        url: '/api/slppos_units.geojson'
+        url: '/api/customized/slppos_units.geojson'
       })
 
       this.spUnitVectorLayer = new VectorLayer({
@@ -1591,7 +1591,7 @@ export default {
 
       const spUnitGeoJsonSource30 = new VectorSource({
         format: new GeoJSON(),
-        url: '/api/slppos_units_30.geojson'
+        url: '/api/customized/slppos_units_30.geojson'
       })
 
       this.spUnitVectorLayer30 = new VectorLayer({

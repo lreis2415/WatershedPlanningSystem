@@ -6,13 +6,13 @@
     <Content>
       <div class="bmp-content">
         <div class="bmp-intro">
-          <p class="bmp-block">
+          <p class="bmp-block text">
             <span v-html='$t("message.intro1")'></span>
           </p>
-          <p class="bmp-block">
+          <p class="bmp-block text">
             <span v-html='$t("message.intro2")'></span>
           </p>
-          <p class="bmp-block">
+          <p class="bmp-block text">
             <span v-html='$t("message.intro3")'></span>
           </p>
           <p class="bmp-block">
@@ -22,7 +22,9 @@
             <span v-html='$t("message.intro4")'></span>
           </p>
           <p>
-          <Table stripe :columns="columns" :data="users"></Table>
+          <div class="bmp-block">
+            <Table stripe :columns="columns" :data="users"></Table>
+          </div>
           </p>
           <p class="bmp-block">
             <span v-html='$t("message.intro5")'></span>
@@ -77,22 +79,22 @@ export default {
       ],
       users:[
         {
-          stakeholder:'ABC',
-          email:'abc@sss.com',
+          stakeholder:'GovHill',
+          email:'govhill@easygeoc.net',
           password:'123456',
           group:'EGCGroup',
           role:'Government'
         },
         {
-          stakeholder:'123',
-          email:'123@sss.com',
+          stakeholder:'ManagerSmith',
+          email:'managersmith@easygeoc.net',
           password:'123456',
           group:'EGCGroup',
           role:'Enterprise'
         },
         {
-          stakeholder:'Rubik',
-          email:'www@sss.com',
+          stakeholder:'James',
+          email:'james@easygeoc.net',
           password:'123456',
           group:'EGCGroup',
           role:'Citizen'

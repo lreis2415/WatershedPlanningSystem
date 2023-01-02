@@ -3,9 +3,9 @@ import VueRouter from 'vue-router'
 import Home from '@/views/home'
 import Optimize from '@/views/optimize'
 import Analysis from '@/views/analysis'
-// import Plots from '@/views/Plots'
-// import Plotsv2 from '@/views/Plotsv2'
-// import BMPEffectivenessLinePlots from '@/views/BMPEffectivenessLinePlots'
+import Plots from '@/views/Plots'
+import Plotsv2 from '@/views/Plotsv2'
+import BMPEffectivenessLinePlots from '@/views/BMPEffectivenessLinePlots'
 
 Vue.use(VueRouter)
 
@@ -25,21 +25,21 @@ const routes = [
     name: 'Analysis',
     component: Analysis
   },
-  // {
-  //   path: '/plots',
-  //   name: 'Plots',
-  //   component: Plots
-  // },
-  // {
-  //   path: '/plotsv2',
-  //   name: 'Plots V2',
-  //   component: Plotsv2
-  // },
-  // {
-  //   path: '/bmp-effectiveness-line-plots',
-  //   name: 'BMP effectiveness line plots',
-  //   component: BMPEffectivenessLinePlots
-  // },
+  {
+    path: '/plots',
+    name: 'Plots',
+    component: Plots
+  },
+  {
+    path: '/plotsv2',
+    name: 'Plots V2',
+    component: Plotsv2
+  },
+  {
+    path: '/bmp-effectiveness-line-plots',
+    name: 'BMP effectiveness line plots',
+    component: BMPEffectivenessLinePlots
+  },
   // {
   //   path: '/about',
   //   name: 'About',
