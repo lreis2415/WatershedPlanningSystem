@@ -2,7 +2,7 @@
 
 ## Environment setup
 
-1. **Node**: The system was developed using node v16.16 and npm v8.11 . So the latter versions are recommended.
+1. **Node**: The system was developed using node v16.16 and npm v8.11. So the latter versions are recommended.
 
 2. **Dependencies**: The following command can be used to install all the dependencies listed in *package.json*.
 ```
