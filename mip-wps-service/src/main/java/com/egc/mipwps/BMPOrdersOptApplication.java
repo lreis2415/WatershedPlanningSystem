@@ -194,6 +194,8 @@ public class BMPOrdersOptApplication extends SpringBootServletInitializer {
                 .get().uri(uriBuilder -> uriBuilder.path("/onlineOptimization")
                         .queryParam("groupID", groupID)
                         .queryParam("optID", optID)
+                        .queryParam("gen", gen)
+                        .queryParam("pop", pop)
                         .build())
                 .retrieve().bodyToMono(String.class);
         String result = mono.block();

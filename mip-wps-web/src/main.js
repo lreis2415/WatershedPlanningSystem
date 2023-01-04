@@ -95,7 +95,7 @@ const messages = {
       yearAxisLabel:'Year',
       submitOpt: 'Submit optimization task',
       submitOptOnline:'Online optimization',
-      optOnlineTip:'When the evolutionary generation is 2 and the population size is 4, the system can use coarse-resolution data (30m) for optimization on a single server. This process generally takes a few minutes. The results are only suitable for visualization and not for comparative analysis.',
+      optOnlineTip:'For performance reasons, only optimization tasks with the product of evolutionary generations and population size less than or equal to 20 can be executed online. The optimization tasks use coarse-resolution data (30m) and run on a single server. This process generally takes a few minutes. The results are only suitable for visualization and not for comparative analysis.',
       submitOptOffline:'Offline optimization',
       optOfflineTip:'The system will notify the administrator to submit optimization tasks on local HPC clusters using fine-resolution data (10m). This process generally takes several hours to several days, depending on the parameters. The results can be used for visualization and comparative analysis.',
       investExceed:'Total investment exceeds the limit! Please check the settings.',

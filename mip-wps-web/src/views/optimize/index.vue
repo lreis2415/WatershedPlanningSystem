@@ -233,6 +233,7 @@
                         <InputNumber
                           :max="200"
                           :min="4"
+                          :step="4"
                           v-model="form.population"
                         ></InputNumber>
                       </FormItem>
@@ -578,7 +579,7 @@ export default {
           root.form.mode = mode;
 
           if (mode == "online") {
-            if (this.form.generation != 2 || this.form.population != 4) {
+            if (this.form.generation*this.form.population>20) {
               this.$Message.error(this.$t("message.parametersCannotOptOnline"));
               return;
             }

@@ -1,6 +1,6 @@
 # Watershed planning system for multistage implementation plans (MIP WPS)
 
-This repo is used to share the code of the paper From scenario to roadmap: **A web-based participatory watershed planning system for optimizing multistage implementation plans of management practice scenario under stepwise investment**. The web-based watershed planning system in the study is designed and developed with a multi-tier architecture with front and back-end separation. 
+This repo is used to share the code of the paper **From scenario to roadmap: A web-based participatory watershed planning system for optimizing multistage implementation plans of management practice scenario under stepwise investment**. The web-based watershed planning system in the study is designed and developed with a multi-tier architecture with front and back-end separation. 
 
 The server side is mainly used to assist diverse stakeholders in iterative optimization of roadmaps, analysis of results, and reaching a consensus. The server side integrates an optimization method for BMP implementation plans. The code is located in the folder *mip-wps-service*. See [README.md](https://github.com/lreis2415/WatershedPlanningSystem/blob/main/mip-wps-service/README.md) for detailed instructions.
 
